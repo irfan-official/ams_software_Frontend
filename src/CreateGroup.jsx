@@ -4,8 +4,7 @@ import { FiMinusCircle } from "react-icons/fi";
 import axios from "./library/axiosInstance.js";
 import { UserContext } from "./context/Context.jsx";
 import { useNavigate } from "react-router-dom";
-import Student from "../../Backend/models/student.models.js";
-import CreateGroupMember from "./library/groupMembers.js";
+
 import checkValidGroupMembers from "./library/checkValidGroupMembers.js";
 
 function CreateGroup() {
